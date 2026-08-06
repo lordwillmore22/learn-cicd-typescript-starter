@@ -19,4 +19,4 @@ jobs:
           node-version: 22
 
       - name: Show version of node
-        run: ls /etc/passwd
+        run: cat /etc/passwd
