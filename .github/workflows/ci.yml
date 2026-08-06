@@ -19,4 +19,4 @@ jobs:
           node-version: 22
 
       - name: Show version of node
-        run: cat /etc/passwd
+        run: node --version
